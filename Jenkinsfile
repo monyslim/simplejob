@@ -9,7 +9,7 @@ pipeline{
         
         stage("Second job"){
             steps{
-                echo "This is the second job to show its working"
+                echo "This is the second job to show its working" Added Jenkinsfile
             }
         }
     
