@@ -1,15 +1,15 @@
 pipeline{
     agent any
     stages{
-        stage("First job"){
+        stage("Test job"){
             steps{
                 echo "This is the first job"
             }
         }
         
-        stage("Second job"){
+        stage("Production job"){
             steps{
-                echo "This is the second job to show its working" Added Jenkinsfile
+                echo "This is the second job to show its working"
             }
         }
     
